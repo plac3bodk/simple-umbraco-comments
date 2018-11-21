@@ -1,5 +1,5 @@
 # simple-umbraco-comments
-Simple comment plugin for UmbracoCMS
+Simple comment plugin for using in UmbracoCMS backoffice
 
 ## Getting started
 
