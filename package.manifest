@@ -1,0 +1,27 @@
+{
+	propertyEditors: [
+		{
+			alias: "Comments",
+			name: "Comments",
+			icon: "icon-conversation-alt",
+			group: "Rich Content",
+			editor: {
+				view: "~/App_Plugins/Comments/Comments.html"
+			},
+            prevalues: {
+                fields: [
+                    {
+                        label: "Kommentar",
+                        description: "Indtast kommentaren",
+                        key: "comment",
+                        view: "textarea"
+                    }
+                ]
+        }
+		}
+	],
+    javascript:
+    [
+        "~/App_Plugins/Comments/Comments.controller.js"
+    ]
+}
